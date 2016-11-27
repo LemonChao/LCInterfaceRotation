@@ -18,6 +18,9 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    self.navigationBar.barTintColor = [UIColor cyanColor];
+    self.navigationBar.translucent = NO;
+    
 }
 
 - (void)didReceiveMemoryWarning {
